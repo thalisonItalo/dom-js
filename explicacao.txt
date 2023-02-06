@@ -1,0 +1,18 @@
+** dom javascript **
+
+selecionadno elementos no js:
+
+para selecionar qualquer elemento no jacscript usamos i queryselector 
+
+
+<div id=""texto"> exemplo de texto <div/>
+documento.queryselector('#texto')
+
+- trocar o texto de elementos no js:
+
+para alterar o texto de um elemento html usamos o innertext
+documento.queryselector('#texto').innertext = "carioca"
+
+
+para alterar o texto com alguma  tag do html usamos innerHTML
+document.queryselector('#texto').innerHTML = "<h1>carioca </h1>" 

@@ -1,0 +1,9 @@
+div {
+    color: aquamarine;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    border: 2px solid gold;
+}
