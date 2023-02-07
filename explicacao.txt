@@ -16,3 +16,19 @@ documento.queryselector('#texto').innertext = "carioca"
 
 para alterar o texto com alguma  tag do html usamos innerHTML
 document.queryselector('#texto').innerHTML = "<h1>carioca </h1>" 
+
+
+
+- para adicionar elemento do html no js:
+
+criar uma variavel e usar o createElement e colocar a tag que voce deseja criar se quiser colocar algum texto use o innertext 
+    const paragrafo = document.createElement('p')
+    paragrafo.innerHTML = "isso é um paragrafo"
+    document.body.appendChild(paragrafo)
+
+
+
+
+
+
+
